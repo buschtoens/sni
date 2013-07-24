@@ -8,7 +8,7 @@ module.exports = sni;
  * RegEx for finding a domain name.
  * @type {RegExp}
  */
-var regex = /^(?:[a-z0-9-]+\.)+[a-z]+$/i;
+var regex = /^(?:[a-z0-9-]+\.)*[a-z]+$/i;
 
 /**
  * Extract the SNI from a Buffer.
