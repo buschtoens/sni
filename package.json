@@ -1,0 +1,14 @@
+{
+  "name": "sni",
+  "description": "Get the Server Name Indication of a raw TLS stream",
+  "version": "0.0.0",
+  "author": "Jan Buschtöns <buschtoens@gmail.com>",
+  "contributors": [ 
+    { "name": "Jan Buschtöns", "email": "buschtoens@gmail.com", "url": "https://github.com/silvinci" }
+  ],
+  "license": "MIT",
+  "keywords": ["buffer", "net", "tls", "sni", "ssl", "crypto"],
+  "repository": "git://github.com/silvinci/sni",
+  "main": "index",
+  "engines": { "node": "*" }
+}
