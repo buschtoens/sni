@@ -23,5 +23,8 @@
   "main": "index",
   "engines": {
     "node": "*"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1"
   }
 }
