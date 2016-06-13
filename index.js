@@ -168,7 +168,6 @@ module.exports = function extractSNI (data) {
           return data.toString('ascii', n, n + nameLength);
         } else {
           n += nameLength;
-          continue;
         }
       }
     } else { // ExtensionType was something we are not interested in
