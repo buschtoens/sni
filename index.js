@@ -77,6 +77,7 @@ module.exports = function extractSNI (data) {
   pos += 32;
 
   // skip SessionID
+  if (pos > end - 1) return null;
   var sessionIdLength = data[pos];
   pos += 1 + sessionIdLength;
 
